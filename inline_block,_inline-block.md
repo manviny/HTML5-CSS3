@@ -1,4 +1,4 @@
-### inline, block, inline-block
+## Inline, Block, Inline-block
 
 #### INLINE
 ```html
