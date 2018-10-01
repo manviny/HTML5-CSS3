@@ -21,7 +21,7 @@
 
 
 - Ejercicios
-  - hacer un parrafo con color de fondo, veremos que ocupa todo el ancho de la pantalla, se trata de un elemento de tipo block
+  1. hacer un parrafo con color de fondo, veremos que ocupa todo el ancho de la pantalla, se trata de un elemento de tipo block
   - poner el css inline (display:inline) y veremos que ahora solo ocupa el ancho del texto
   - escribir en github todos elementos  block e inline
   - convertir un elemento block (img) a inline
