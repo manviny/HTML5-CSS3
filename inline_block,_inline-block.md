@@ -27,7 +27,7 @@ Los elementos con este estilo se van colocando verticalmente y respetan el width
     </nav>
 </body>
 </html>
-
+```
 
 ### INLINE
 Los elementos con este estilo se van apilando en horizontal y hacen caso omiso del width y el height que les indicamos. Tampoco procesan muy bien el padding asignado. Este es el estilo por defecto de las etiquetas a y span. Se utiliza fundamentalmente para contener texto.
