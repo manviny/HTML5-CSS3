@@ -37,10 +37,46 @@ Los elementos con este estilo se van apilando en horizontal y hacen caso omiso d
 - ocupan el espacio de los elementos contenidos
 - los elementos inline solo pueden contener elementos inline.
 - NO se les puede aplicar width y height
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block and Inline</title>
+</head>
+<body>
+    <img src="http://placekitten.com/300/450" alt="">
+    <img src="http://placekitten.com/300/500" alt="">
+    <img src="http://placekitten.com/350/600" alt="">
+</body>
+</html>
+```
 
 ### INLINE-BLOCK
 A medio camino entre el estilo display:block, y el estilo display:inline, está el estilo display:inline-block. Los elementos con este estilo se apilan en horizontal y SÍ respetan el width y el height que les hemos asignado. Este es el estilo por defecto de las imágenes.
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block and Inline</title>
+</head>
+<body>
+    <p style="display: inline-block; width: 30%">Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede.</p>
+    <p style="display: inline-block; width: 30%">Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede.</p>
+    <p style="display: inline-block; width: 30%">Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede.</p>
+</body>
+</html>
+```
+
+### Cambiar la propiedad Display
+´´´
+display: inline
+display: block
+display: inline-block
+display: none
+```
 
 #### Ejercicios
   - escribir en github todos elementos block e inline
