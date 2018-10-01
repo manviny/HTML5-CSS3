@@ -30,7 +30,8 @@ A medio camino entre el estilo display:block, y el estilo display:inline, está 
   - dar margin y padding al div y al span, ¿qué ocurre?
   - poner img (display:block) y veremos que ahora ocupa todo el ancho
   - Hacer una lista con <ul> y que se vea en horizontal
-  - crear 3 columnas div que se vean en horizontal
+  - crear 3 columnas div que se vean en horizontal y que contengan un parrafo y una foto cada una
+  - crear pagina con titulo, navegacion y los tres divs del ejercicio anterior.
   
 ```html
 <div>Esto es un DIV</div>  
