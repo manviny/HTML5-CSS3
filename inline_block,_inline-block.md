@@ -25,11 +25,12 @@ A medio camino entre el estilo display:block, y el estilo display:inline, está 
 
 
 #### Ejercicios
-  1. hacer un parrafo con color de fondo, veremos que ocupa todo el ancho de la pantalla, se trata de un elemento de tipo block
-  2. poner el css inline (display:inline) y veremos que ahora solo ocupa el ancho del texto
-  3. escribir en github todos elementos  block e inline
-  4. convertir un elemento block (img) a inline
-  5. Hacer una lsita con <ul> y que se va en horizontal
+  - escribir en github todos elementos block e inline
+  - crear parrafo, img, div y span con color de fondo verde, veremos la diferencia entre block e inline.
+  - dar margin y padding al div y al span, ¿qué ocurre?
+  - poner img (display:block) y veremos que ahora ocupa todo el ancho
+  - Hacer una lista con <ul> y que se vea en horizontal
+  - crear 3 columnas div que se vean en horizontal
   
 ```html
 <div>Esto es un DIV</div>  
