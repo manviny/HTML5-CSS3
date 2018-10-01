@@ -33,11 +33,6 @@ A medio camino entre el estilo display:block, y el estilo display:inline, está 
   - crear 3 columnas div que se vean en horizontal y que contengan un parrafo y una foto cada una
   - crear pagina con titulo, navegacion y los tres divs del ejercicio anterior.
   
-```html
-<div>Esto es un DIV</div>  
-<p>esto es un párrafo</p>
-```
-  - cambiar width and height a los elementos de tipo block al código siguiente a
 
 
 
