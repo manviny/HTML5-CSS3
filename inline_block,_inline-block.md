@@ -1,6 +1,6 @@
 ### inline, block, inline-block
 
-##### INLINE
+#### INLINE
 ```html
 <a>  <abbr>  <acronym>  <b>  <bdo>  <big>  <br>  <button>  <cite>  <code>  <dfn>  <em>  <i>  <img>  <input>  <kbd>  <label>  <map>  <object>  <q>  <samp>  <script>  <select>  <small>  <span>  <strong>  <sub>  <sup>  <textarea>  <time>  <tt>  <var>  
 ```
@@ -8,7 +8,7 @@
 - los elemento de bloque pueden contener elementos inline y block.
 - se les puede aplicar width y height
 
-##### BLOCK
+#### BLOCK
 ```html
 <address>  <article>  <aside>  <blockquote>  <canvas>  <dd>  <div>  <dl>  <dt>  <fieldset>  <figcaption>  <figure>  <footer>  <form>  <h1>  -<h6>  <header>  <hr>  <li>  <main>  <nav>  <noscript>  <ol>  <output>  <p>  <pre>  <section>  <table>  <tfoot>  <ul>  <video>  
 ```
@@ -16,7 +16,7 @@
 - los elementos inline solo pueden contener elementos inline.
 - NO se les puede aplicar width y height
 
-##### INLINE-BLOCK
+#### INLINE-BLOCK
 
 
 
@@ -36,4 +36,4 @@
 
 
 
-### Box Model Review
+
