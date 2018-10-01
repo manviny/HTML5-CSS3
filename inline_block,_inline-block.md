@@ -72,10 +72,12 @@ A medio camino entre el estilo display:block, y el estilo display:inline, está 
 
 ### Cambiar la propiedad Display
 ```css
-display: inline
-display: block
-display: inline-block
-display: none
+* {
+  display: inline;
+  display: block;
+  display: inline-block;
+  display: none;
+}
 ```
 
 #### Ejercicios
