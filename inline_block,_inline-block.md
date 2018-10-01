@@ -10,6 +10,24 @@ Los elementos con este estilo se van colocando verticalmente y respetan el width
 - ocupan todo el ancho del navegador
 - los elemento de bloque pueden contener elementos inline y block.
 - se les puede aplicar width y height
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block and Inline</title>
+</head>
+<body>
+    <nav>
+        <ul style="border: 1px solid blue">
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>
+    </nav>
+</body>
+</html>
+
 
 ### INLINE
 Los elementos con este estilo se van apilando en horizontal y hacen caso omiso del width y el height que les indicamos. Tampoco procesan muy bien el padding asignado. Este es el estilo por defecto de las etiquetas a y span. Se utiliza fundamentalmente para contener texto.
