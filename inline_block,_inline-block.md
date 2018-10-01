@@ -71,7 +71,7 @@ A medio camino entre el estilo display:block, y el estilo display:inline, está 
 ```
 
 ### Cambiar la propiedad Display
-´´´css
+```css
 display: inline
 display: block
 display: inline-block
