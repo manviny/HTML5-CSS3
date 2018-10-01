@@ -32,7 +32,8 @@ Los elementos con este estilo se van colocando verticalmente y respetan el width
 ### INLINE
 Los elementos con este estilo se van apilando en horizontal y hacen caso omiso del width y el height que les indicamos. Tampoco procesan muy bien el padding asignado. Este es el estilo por defecto de las etiquetas a y span. Se utiliza fundamentalmente para contener texto.
 ```html
-<a>  <abbr>  <acronym>  <b>  <bdo>  <big>  <br>  <button>  <cite>  <code>  <dfn>  <em>  <i>  <img>  <input>  <kbd>  <label>  <map>  <object>  <q>  <samp>  <script>  <select>  <small>  <span>  <strong>  <sub>  <sup>  <textarea>  <time>  <tt>  <var>  
+<a>     <abbr>      <acronym>   <b>     <bdo>   <big>   <br>    <button>  
+<cite>      <code>      <dfn>   <em>    <i>     <img>  <input>  <kbd>  <label>  <map>  <object>  <q>  <samp>  <script>  <select>  <small>  <span>  <strong>  <sub>  <sup>  <textarea>  <time>  <tt>  <var>  
 ```
 - ocupan el espacio de los elementos contenidos
 - los elementos inline solo pueden contener elementos inline.
