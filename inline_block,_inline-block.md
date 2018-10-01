@@ -7,18 +7,18 @@ Los elementos con este estilo se van colocando verticalmente y respetan el width
 ```html
 <address>  <article>  <aside>  <blockquote>  <canvas>  <dd>  <div>  <dl>  <dt>  <fieldset>  <figcaption>  <figure>  <footer>  <form>  <h1>  -<h6>  <header>  <hr>  <li>  <main>  <nav>  <noscript>  <ol>  <output>  <p>  <pre>  <section>  <table>  <tfoot>  <ul>  <video>  
 ```
-- ocupan el espacio de los elementos contenidos
-- los elementos inline solo pueden contener elementos inline.
-- NO se les puede aplicar width y height
-
-#### INLINE
-Los elementos con este estilo se van apilando en horizontal y hacen caso omiso del width y el height que les indicamos. Tampoco procesan muy bien el padding asignado. Si te das cuenta, este estilo define un comportamiento que es exactamente el contrario del estilo anterior. Este es el estilo por defecto de las etiquetas a y span. Se utiliza fundamentalmente para contener texto.
-```html
-<a>  <abbr>  <acronym>  <b>  <bdo>  <big>  <br>  <button>  <cite>  <code>  <dfn>  <em>  <i>  <img>  <input>  <kbd>  <label>  <map>  <object>  <q>  <samp>  <script>  <select>  <small>  <span>  <strong>  <sub>  <sup>  <textarea>  <time>  <tt>  <var>  
-```
 - ocupan todo el ancho del navegador
 - los elemento de bloque pueden contener elementos inline y block.
 - se les puede aplicar width y height
+
+#### INLINE
+Los elementos con este estilo se van apilando en horizontal y hacen caso omiso del width y el height que les indicamos. Tampoco procesan muy bien el padding asignado. Este es el estilo por defecto de las etiquetas a y span. Se utiliza fundamentalmente para contener texto.
+```html
+<a>  <abbr>  <acronym>  <b>  <bdo>  <big>  <br>  <button>  <cite>  <code>  <dfn>  <em>  <i>  <img>  <input>  <kbd>  <label>  <map>  <object>  <q>  <samp>  <script>  <select>  <small>  <span>  <strong>  <sub>  <sup>  <textarea>  <time>  <tt>  <var>  
+```
+- ocupan el espacio de los elementos contenidos
+- los elementos inline solo pueden contener elementos inline.
+- NO se les puede aplicar width y height
 
 #### INLINE-BLOCK
 A medio camino entre el estilo display:block, y el estilo display:inline, está el estilo display:inline-block. Los elementos con este estilo se apilan en horizontal y SÍ respetan el width y el height que les hemos asignado. Este es el estilo por defecto de las imágenes.
